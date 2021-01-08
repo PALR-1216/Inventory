@@ -1,0 +1,47 @@
+[
+  {
+    "size": "small",
+    "colors": "negro",
+    "cantidad": 20
+  },
+  {
+    "size": "small",
+    "colors": "negro",
+    "cantidad": 20
+  },
+  {
+    "size": "XSmall",
+    "colors": "White",
+    "cantidad": 5
+  },
+  {
+    "size": "XSmall",
+    "colors": "White",
+    "cantidad": 5
+  },
+  {
+    "size": "XSmall",
+    "colors": "White",
+    "cantidad": 1
+  },
+  {
+    "size": "XXLarge",
+    "colors": "White",
+    "cantidad": 23
+  },
+  {
+    "size": "XSmall",
+    "colors": "Black",
+    "cantidad": 16
+  },
+  {
+    "size": "XSmall",
+    "colors": "White",
+    "cantidad": 1
+  },
+  {
+    "size": "XSmall",
+    "colors": "White",
+    "cantidad": 11
+  }
+]

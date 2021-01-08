@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script>
+      src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
+    </script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Adding Invetory</h1>
+      <p>Estampealo</p>
+    </div>
+
+    <div class="container">
+      <form name="myForm">
+        <label for="size" class="sizeLabel">Choose a Size</label>
+        <select id="sizes">
+          <option label="XSmall">XSmall</option>
+          <option label="Small">Small</option>
+          <option label="Medium">Medium</option>
+          <option label="Large">Large</option>
+          <option label="Xlarge">XLarge</option>
+          <option label="XXlarge">XXLarge</option>
+        </select>
+
+        <label for="color" class="colorLabel">Choose a color</label>
+        <select id="colors">
+          <option label="White">White</option>
+          <option label="Black">Black</option>
+        </select>
+
+        <label for="cantidad">Quantatiy(0-100):</label>
+        <input
+          type="number"
+          id="cantidad"
+          name="cantidad"
+          min="0"
+          max="100"
+          placeholder="Enter Amount"
+          required
+        />
+
+        <input
+          type="submit"
+          id="submit"
+          onclick="SubmitData()"
+          value="Add Shirt"
+        />
+      </form>
+
+      <a href="index.html">Back</a>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script> -->
+    <script src="script2.js"></script>
+  </body>
+</html>
