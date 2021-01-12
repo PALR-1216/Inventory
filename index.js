@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
-const path = require("path");
 const data = require("./public/data.json");
 
 app.use(express.static("public"));
